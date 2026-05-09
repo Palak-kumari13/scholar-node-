@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@theme {
+  --color-bg: #F8F9FA;
+  --color-border: #E9ECEF;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+}
+
+body {
+  @apply bg-bg text-gray-900;
+}
+
